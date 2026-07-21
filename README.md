@@ -34,7 +34,7 @@ This public version is for demonstration only. It preserves the codebase and wor
 - private raw, intermediate, and processed data
 - live credentials
 - final report
-- deployment/account metadata
+- shinymanager + netlify deployment/account metadata
 - private generated outputs
 - local machine/cache artifacts
 
