@@ -15,7 +15,7 @@ are **not real patient data** and should not be interpreted as real clinical fin
 
 ## Demo links
 
-- Stats site (GitHub Pages): ![Click to access the demo stats site](https://tiffchu.github.io/BC_Childrens_Research_Institute_IBD_demo/)
+- Stats site (GitHub Pages): [Click to view the demo stats site](https://tiffchu.github.io/BC_Childrens_Research_Institute_IBD_demo/)
 - Dashboard walkthrough: ![Dashboard walkthrough](figures/demo/dashboardgif.gif) [if video fails, click here](figures/demo/dashboard_demo.mp4)
 
 ## Overview
