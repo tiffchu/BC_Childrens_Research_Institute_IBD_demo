@@ -108,7 +108,7 @@ notebooks/*.html
 .vscode/
 
 # Quarto site output
-stats/_site/
+# Public demo keeps the rendered stats site committed.
 stats/.quarto/
 .positai
 pipeline_diagram.html
