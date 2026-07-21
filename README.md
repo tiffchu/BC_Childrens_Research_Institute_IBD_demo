@@ -16,7 +16,7 @@ are **not real patient data** and should not be interpreted as real clinical fin
 ## Demo links
 
 - Stats site (GitHub Pages): `https://tiffchu.github.io/BC_Childrens_Research_Institute_IBD_demo/`
-- Dashboard: add your deployed dashboard URL here once hosted
+- Dashboard walkthrough: [Watch the demo video](figures/demo/dashboard_demo.mp4)
 
 ## Overview
 
@@ -33,6 +33,7 @@ This public version is for demonstration only. It preserves the codebase and wor
 
 - private raw, intermediate, and processed data
 - live credentials
+- final report
 - deployment/account metadata
 - private generated outputs
 - local machine/cache artifacts
@@ -66,7 +67,7 @@ The demo uses fake generated versions of the same input workbook shapes as the o
 
 Place these demo workbooks in `data/raw/`.
 
-## Diagrams
+## Workflow 
 
 ![Pipeline overview](figures/diagrams/pipeline_overview.svg)
 
@@ -99,7 +100,7 @@ make app
 ## Notes on outputs
 
 - `make stats` renders the Quarto site into `stats/_site/`
-- `docs/` contains the GitHub Pages copy of the rendered stats site
+- `docs/` contains the GitHub Pages copy of the rendered stats site, only for this demo
 - `make app` launches the Shiny dashboard using demo data in `dashboard/data/`
 
 ## Publish the stats site with GitHub Pages
