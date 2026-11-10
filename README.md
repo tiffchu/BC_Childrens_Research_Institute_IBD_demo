@@ -16,7 +16,17 @@ are **not real patient data** and should not be interpreted as real clinical fin
 ## Demo links
 
 - Stats site (GitHub Pages): [Click to view the demo stats site](https://tiffchu.github.io/BC_Childrens_Research_Institute_IBD_demo/)
-- Dashboard walkthrough: ![Dashboard walkthrough](figures/demo/dashboardgif.gif) [if video fails, click here](figures/demo/dashboard_demo.mp4)
+- Dashboard walkthrough video: [Click here if the embedded preview does not open the MP4](figures/demo/dashboard_demo.mp4)
+
+<p>
+  <a href="figures/demo/dashboard_demo.mp4">
+    <img
+      src="figures/demo/dashboardgif.gif"
+      alt="Dashboard walkthrough"
+      width="960"
+    />
+  </a>
+</p>
 
 ## Overview
 
@@ -103,21 +113,5 @@ make app
 - `docs/` contains the GitHub Pages copy of the rendered stats site, only for this demo
 - `make app` launches the Shiny dashboard using demo data in `dashboard/data/`
 
-## Publish the stats site with GitHub Pages
 
-1. Commit the `docs/` folder.
-2. Push to your GitHub repository.
-3. In GitHub, open `Settings` -> `Pages`.
-4. Set the source to branch `main` and folder `/docs`.
-5. Replace the placeholder stats-site URL above with your real Pages URL.
-
-## Push to an existing empty repo
-
-```sh
-git init
-git add .
-git commit -m "Initial public demo release"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
 ```
